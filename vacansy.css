@@ -1,0 +1,133 @@
+/* Umumiy stil */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #06263f;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header-to {
+    background-color: #669961;
+    padding: 30px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+header-to h1 {
+    padding: 40px;
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header-to p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Qidiruv Box */
+.search-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box input {
+    background-color: #000000;
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #06263f;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background-color: #06263f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #669961;
+}
+
+/* Vacancies Section */
+.vacancies {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.vacancies h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.vacancy {
+    background-color: #06263f;
+    color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.vacancy:hover {
+    transform: translateY(-10px);
+}
+
+.vacancy h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.vacancy p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.apply-btn {
+    background-color: #669961;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+    background-color: #06263f;
+}
+
+/* Footer */
+footer {
+    background-color: #06263f;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+}
+.nan{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 100px;
+}

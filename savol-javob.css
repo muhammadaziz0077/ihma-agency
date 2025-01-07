@@ -1,0 +1,88 @@
+/* Umumiy reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tana va fon */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Sahifa konteyneri */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Sarlavha */
+.header h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.header p {
+    padding-bottom: 30px;
+    font-size: 18px;
+    color: #777;
+}
+
+/* Variantlar */
+.options {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #feb47b;
+}
+
+/* Form va javob ko'rsatish */
+.form-section input, .form-section textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.answer-section {
+    margin-top: 20px;
+}
+
+.answer-section p {
+    font-size: 18px;
+    color: #333;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

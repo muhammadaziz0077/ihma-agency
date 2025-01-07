@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savol-Javob</title>
+    <link rel="stylesheet" href="css/savol-javob.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Savol va Javoblar</h1>
+            <p>Savolingizni qanday yuborishni tanlang:</p>
+        </div>
+
+        <div class="options">
+            <button onclick="selectOption('telegram')">Telegram Bot</button>
+            <button onclick="selectOption('site')">Sayt orqali</button>
+        </div>
+
+        <!-- Sayt orqali savol yuborish formasi -->
+        <div class="form-section" id="formSection" style="display: none;">
+            <input type="text" id="name" placeholder="Ismingiz" />
+            <input type="text" id="surname" placeholder="Familiyangiz" />
+            <input type="tel" id="phone" placeholder="Telefon raqamingiz" />
+            <textarea id="question" placeholder="Savolingizni shu yerga yozing..."></textarea>
+            <button onclick="submitForm()">Yuborish</button>
+        </div>
+
+        <!-- Javob xabari -->
+        <div class="answer-section" id="answerSection" style="display: none;">
+            <p id="answerText">Tez orada sizga SMS orqali javob beramiz.</p>
+        </div>
+    </div>
+    
+    
+    <script src="js/savol-javob.js"></script>
+</body>
+</html>
